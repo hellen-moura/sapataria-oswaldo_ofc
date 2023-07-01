@@ -32,7 +32,7 @@ body {
 }
 
 header {
-    background-color: 
+    background-color: red
     
 }
 nav ul {
@@ -74,7 +74,6 @@ h2 {
 
 article{
     margin: 50px 0 80px;
-    font-size: ;
 }
 
 main{
@@ -107,7 +106,7 @@ color: #8E3200;
     box-shadow: 4px 4px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-.
+
 .page-sub {
     color: #6d351a ;
     margin: 40px auto 5px;
@@ -231,3 +230,4 @@ color: #8E3200;
   
   .btn:hover {
     opacity: 1;
+  }
