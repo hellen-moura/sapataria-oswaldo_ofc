@@ -76,6 +76,13 @@ article{
     margin: 50px 0 80px;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 main{
 width: 80%;
 margin: 40px auto 5px;
