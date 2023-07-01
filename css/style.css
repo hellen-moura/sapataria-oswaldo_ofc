@@ -1,22 +1,33 @@
 
-
+:root {
+    --primary: #97a4a8; 
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+  }
+  
+  * {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+  }
+  
 body {
 
-    background-color: #855f31;
+    background-color: #f3e3d0;
 }
 .page-title {
-    color: #8E3200;
-    margin: -1px auto 5px;
-    padding-left: 10px;
-    width: 80%;
-    font-size: 40pt;
-    background-size: 500px;
-    font-weight: bold;
+    --primary: #97a4a8; 
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
 
 }
 
 header {
-    background-color: rgb(71, 52, 23);
+    background-color: rgb(206, 168, 111);
      /* margin: -1px; */
 
 }
@@ -76,11 +87,12 @@ li a {
 
 }
 
-footer {
-    clear: both;
-    border-top: 1px solid black;
+ /* Footer */
+ #footer {
     text-align: center;
-    padding: 20px;
-    font-size: 20px;
-    
-}
+    color: var(--secondary);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
